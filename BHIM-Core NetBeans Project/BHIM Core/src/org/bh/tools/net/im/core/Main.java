@@ -1,22 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package org.bh.net.im.core;
+package org.bh.tools.net.im.core;
 
 import java.awt.Desktop;
-import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
+ * BHIM Core is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
  *
- * @author ben_s
+ * This is a tiny shell app so someone running the JAR knows why they shouldn't be.
+ *
+ * @author Kyli of Blue Husky Programming
+ * @version 1.0.0 - 2016-03-18 (1.0.0) - Kyli created Main
+ * @since 2016-03-18
  */
 public class Main {
 
@@ -33,9 +31,6 @@ public class Main {
         BHIM_URL = temp;
     }
 
-    /**
-     * @param args the command line arguments
-     */
     @SuppressWarnings("UseSpecificCatch") // catch everything paranoidly
     public static void main(String[] args) {
         String title = "Oops! This isn't exactly an app.";
