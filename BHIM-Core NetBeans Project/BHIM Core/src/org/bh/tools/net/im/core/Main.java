@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- * BHIM Core is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * BHIM Core is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
  *
  * This is a tiny shell app so someone running the JAR knows why they shouldn't be.
  *

@@ -25,12 +25,12 @@ public class Body<DataType> implements CharSequence, TransmittablePiece {
         return _content;
     }
 
-    public void setContent(DataType content) {
+    private void setContent(DataType content) {
         _content = content;
         _cachedStringVersion = null;
     }
 
-    private CharSequence getCachedStringVersion() {
+    protected CharSequence getCachedStringVersion() {
         return _cachedStringVersion == null
                 ? (_content == null
                         ? ""

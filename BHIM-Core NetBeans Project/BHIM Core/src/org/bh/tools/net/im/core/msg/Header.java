@@ -10,6 +10,6 @@ package org.bh.tools.net.im.core.msg;
  * @param <FieldType> The type of fields in this header
  * @since 2016-03-18
  */
-public abstract class Header<FieldType> implements TransmittablePiece {
+public interface Header<FieldType> extends TransmittablePiece {
 
 }

@@ -4,8 +4,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.bh.tools.net.im.core.err.FailedValidationException;
-import org.bh.tools.im.util.DigestionUtils;
 import org.bh.tools.net.im.core.msg.BHIMFooter.BHIMFooterField;
+import org.bh.tools.net.im.core.util.DigestionUtils;
 
 /**
  * BHIMFooter, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
@@ -16,7 +16,7 @@ import org.bh.tools.net.im.core.msg.BHIMFooter.BHIMFooterField;
  * @version 1.0.0 - 2015-09-29 (1.0.0) - Kyli created BHIMFooter
  * @since 2015-09-29
  */
-public class BHIMFooter extends Footer<BHIMFooterField> {
+public class BHIMFooter implements Footer<BHIMFooterField> {
     //<editor-fold defaultstate="collapsed" desc="lengths">
 
     /**

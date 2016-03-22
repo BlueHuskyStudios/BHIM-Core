@@ -1,4 +1,4 @@
-package org.bh.tools.im.util;
+package org.bh.tools.net.im.core.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -11,22 +11,22 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-
 /**
  * DigestionUtils, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
  *
  * @author Kyli of Blue Husky Programming
- * @version 1.0.0
- * - 2015-07-05 (1.0.0) - Kyli created DigestionUtils
+ * @version 1.0.0 - 2015-07-05 (1.0.0) - Kyli created DigestionUtils
  * @since 2015-07-05
  */
 public class DigestionUtils {
+
     public static final Service MD5_SERVICE;
 
     static {
         Service md5Service = null;
         Provider[] providers = Security.getProviders();
-provs:  for (Provider provider : providers) {
+        provs:
+        for (Provider provider : providers) {
             Set<Service> services = provider.getServices();
             for (Service service : services) {
                 if (service.getAlgorithm().equals("MD5")) {
@@ -50,8 +50,7 @@ provs:  for (Provider provider : providers) {
         if (MD5_SERVICE != null) {
             try {
                 return MessageDigest.getInstance(MD5_SERVICE.getAlgorithm()).digest(raw);
-            }
-            catch (NoSuchAlgorithmException ex) {
+            } catch (NoSuchAlgorithmException ex) {
                 Logger.getGlobal().log(Level.WARNING, "MD5 somehow not found", ex);
             }
         }
@@ -62,9 +61,8 @@ provs:  for (Provider provider : providers) {
         if (MD5_SERVICE != null) {
             try {
                 return Arrays.equals(checksum,
-                                     MessageDigest.getInstance(MD5_SERVICE.getAlgorithm()).digest(possiblyValid));
-            }
-            catch (NoSuchAlgorithmException ex) {
+                        MessageDigest.getInstance(MD5_SERVICE.getAlgorithm()).digest(possiblyValid));
+            } catch (NoSuchAlgorithmException ex) {
                 Logger.getGlobal().log(Level.WARNING, "MD5 somehow not found", ex);
             }
         }

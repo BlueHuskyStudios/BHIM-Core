@@ -4,7 +4,9 @@ import bht.tools.net.upd.Version;
 import static bht.tools.net.upd.Version.Channel.λ;
 
 /**
- * PlatformInfo, made for BHIM, is copyright Blue Husky Programming ©2015 BH-PS-1 <hr/>
+ * PlatformInfo, made for BHIM, is copyright Blue Husky Programming ©2016 BH-PS-1 <hr/>
+ *
+ * Information about this BHIM platform, specifically.
  *
  * @author Kyli of Blue Husky Programming
  * @version 1.0.0 - 2016-03-16 (1.0.0) - Kyli created PlatformInfo

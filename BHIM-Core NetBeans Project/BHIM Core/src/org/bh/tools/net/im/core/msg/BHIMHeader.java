@@ -13,7 +13,7 @@ import org.bh.tools.net.im.core.struct.MessageType;
  * @version 1.0.0 - 2015-09-29 (1.0.0) - Kyli created BHIMHeader
  * @since 2015-09-29
  */
-public class BHIMHeader extends Header {
+public class BHIMHeader implements Header {
 
     //<editor-fold defaultstate="collapsed" desc="lengths">
     /**

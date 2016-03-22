@@ -10,6 +10,6 @@ package org.bh.tools.net.im.core.msg;
  * @param <FieldType> The type of fields in this footer
  * @since 2016-03-18
  */
-public abstract class Footer<FieldType> implements TransmittablePiece {
+public interface Footer<FieldType> extends TransmittablePiece {
 
 }

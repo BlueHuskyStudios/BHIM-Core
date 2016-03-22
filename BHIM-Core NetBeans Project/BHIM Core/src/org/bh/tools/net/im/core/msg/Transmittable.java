@@ -12,7 +12,8 @@ package org.bh.tools.net.im.core.msg;
  * @param <FooterType>
  * @since 2016-03-10
  */
-public interface Transmittable<HeaderType extends Header, BodyType extends Body, FooterType extends Footer> extends TransmittablePiece {
+public interface Transmittable<HeaderType extends Header, BodyType extends Body, FooterType extends Footer>
+        extends TransmittablePiece {
 
     /**
      * @return the header in this Transmittable.
