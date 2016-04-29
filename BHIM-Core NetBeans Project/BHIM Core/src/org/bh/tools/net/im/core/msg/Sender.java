@@ -3,7 +3,7 @@ package org.bh.tools.net.im.core.msg;
 import java.net.InetAddress;
 
 /**
- * Sender is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * Sender is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * Designates a person from whom a transmission originated.
  *

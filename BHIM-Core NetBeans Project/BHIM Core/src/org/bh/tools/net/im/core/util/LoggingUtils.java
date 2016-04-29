@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import org.bh.tools.log.handlers.DialogHandler;
 
 /**
- * LoggingUtils, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * LoggingUtils, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * @author Kyli of Blue Husky Programming
  * @version 1.0.0 - 2015-08-29 (1.0.0) - Kyli created LoggingUtils
@@ -22,8 +22,15 @@ public class LoggingUtils {
     static {
         ConsoleHandler consoleHandler = new ConsoleHandler();
         consoleHandler.setLevel(Level.ALL);
-
-        FOREGROUND.addHandler(new DialogHandler(Level.INFO));
+        try {
+            Class c = Class.forName("org.bh.tools.log.handlers.DialogHandler");
+            if (null == c) {
+                throw new ClassNotFoundException("Detected no class!");
+            }
+            FOREGROUND.addHandler(new DialogHandler(Level.INFO));
+        } catch (ClassNotFoundException e) {
+            System.err.println("No dialog handler!");
+        }
         FOREGROUND.addHandler(new ConsoleHandler());
 
         BACKGROUND.addHandler(new ConsoleHandler());

@@ -1,10 +1,10 @@
 package org.bh.tools.net.im.core.util;
 
-import bht.tools.net.upd.Version;
-import static bht.tools.net.upd.Version.Channel.λ;
+import org.bh.tools.struct.Version;
+import static org.bh.tools.struct.Version.Channel.λ;
 
 /**
- * PlatformInfo, made for BHIM, is copyright Blue Husky Programming ©2016 BH-PS-1 <hr/>
+ * PlatformInfo, made for BHIM, is copyright Blue Husky Programming ©2016 BH-PS-1 <hr>
  *
  * Information about this BHIM platform, specifically.
  *
@@ -16,6 +16,6 @@ public class PlatformInfo {
 
     public static final String APP_NAME_LONG = "Blue Husky's Instant Messenger";
     public static final String APP_NAME_SHORT = "BHIM";
-    public static final Version APP_VERSION = new Version(λ, 0, 0, 0);
+    public static final Version APP_VERSION = new Version(λ, 0, 0, 1);
 
 }

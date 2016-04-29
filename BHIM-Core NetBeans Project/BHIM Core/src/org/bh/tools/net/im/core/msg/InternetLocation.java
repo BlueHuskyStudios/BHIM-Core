@@ -3,7 +3,7 @@ package org.bh.tools.net.im.core.msg;
 import java.net.InetAddress;
 
 /**
- * InternetLocation is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * InternetLocation is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * Designates somewhere on the Internet.
  *

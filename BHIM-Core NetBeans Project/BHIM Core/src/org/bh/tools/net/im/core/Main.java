@@ -6,9 +6,10 @@ import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+import org.bh.tools.net.im.core.meta.FeatureToggle;
 
 /**
- * BHIM Core is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * BHIM Core is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * This is a tiny shell app so someone running the JAR knows why they shouldn't be.
  *

@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.err;
 
 /**
- * FailedValidationException, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * FailedValidationException, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * Represents that a computed checksum did not match a cached checksum.
  *

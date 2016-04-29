@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.msg;
 
 /**
- * TransmittablePiece, made for BHIM, is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * TransmittablePiece, made for BHIM, is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * A major piece of a message ready to be sent across the network.
  *
@@ -11,7 +11,13 @@ package org.bh.tools.net.im.core.msg;
  */
 public interface TransmittablePiece {
 
+    /**
+     * @return The size of this piece, in bytes.
+     */
     public long size();
 
+    /**
+     * @return A byte array representation of this piece.
+     */
     public byte[] convertToBytes();
 }

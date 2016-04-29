@@ -5,7 +5,7 @@ import org.bh.tools.net.im.core.err.CorruptedMessageException;
 
 
 /**
- * IncompleteMessageException, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * IncompleteMessageException, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * @author Kyli of Blue Husky Programming
  * @version 1.0.0

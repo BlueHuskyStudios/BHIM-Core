@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.msg;
 
 /**
- * Destination is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * Destination is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * Designates where a transmission is to be sent.
  *

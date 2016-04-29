@@ -9,7 +9,7 @@ import org.bh.tools.net.im.core.util.PlatformInfo;
 //import static org.bh.tools.im.struct.MessageType.MessageTypeCategory.AUTOMATED_INFO;
 //import static org.bh.tools.im.struct.MessageType.MessageTypeCategory.USER_INITIATED;
 /**
- * MessageType, made for BHIM, is copyright Blue Husky Programming ©2015 BH-PS-1 <hr/>
+ * MessageType, made for BHIM, is copyright Blue Husky Programming ©2015 BH-PS-1 <hr>
  *
  * An implementation of BHIM Impl Spec § 3.4.3
  *

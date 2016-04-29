@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.msg;
 
 /**
- * BHIMBody, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * BHIMBody, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * Represents the body of a BHIM message. This class conforms to the BHIM Implementation Spec Opus 5.
  *
@@ -29,7 +29,7 @@ public class BHIMBody extends Body<CharSequence> {
     }
 
     public void setText(CharSequence newText) {
-        super._content = RPMessage.valueOf(newText);
+        super._content = newText;
     }
 
     public CharSequence getText() {

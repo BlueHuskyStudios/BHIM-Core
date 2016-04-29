@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.msg;
 
 /**
- * Field, made for BHIM, is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * Field, made for BHIM, is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * A small piece of a piece of a message to be sent across a network.
  *

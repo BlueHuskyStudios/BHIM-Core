@@ -8,7 +8,7 @@ import org.bh.tools.net.im.core.msg.BHIMFooter.BHIMFooterField;
 import org.bh.tools.net.im.core.util.DigestionUtils;
 
 /**
- * BHIMFooter, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * BHIMFooter, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * The footer for a BHIM message. This class conforms to the BHIM Implementation Spec Opus 5.
  *

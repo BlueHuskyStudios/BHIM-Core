@@ -4,7 +4,7 @@ import org.bh.tools.net.im.core.err.FailedValidationException;
 import org.bh.tools.im.err.IncompleteMessageException;
 
 /**
- * BHIMMessage, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * BHIMMessage, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * A message ready to be sent across the network. To create a {@link BHIMMessage}, use
  * {@link BHIMMessageFactory#makeFromFactory(CharSequence)}. This class conforms to the BHIM Implementation Spec Opus 5.

@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.msg;
 
 /**
- * Transmittable, made for BHIM, is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * Transmittable, made for BHIM, is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * A message ready to be sent across the network.
  *

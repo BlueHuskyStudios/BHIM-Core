@@ -5,7 +5,7 @@ import bht.tools.util.math.Numbers;
 import org.bh.tools.net.im.core.struct.MessageType;
 
 /**
- * BHIMHeader, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr/>
+ * BHIMHeader, made for BHIM, is copyright Blue Husky Programming ©2015 BH-1-PS <hr>
  *
  * The header for a BHIM message. This class conforms to the BHIM Implementation Spec Opus 5.
  *

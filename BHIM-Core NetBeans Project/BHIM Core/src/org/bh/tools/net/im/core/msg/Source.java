@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.msg;
 
 /**
- * Source is copyright Blue Husky Programming ©2016 BH-1-PS <hr/>
+ * Source is copyright Blue Husky Programming ©2016 BH-1-PS <hr>
  *
  * Designates where a transmission is coming from.
  *

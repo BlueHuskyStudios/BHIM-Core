@@ -1,7 +1,7 @@
 package org.bh.tools.net.im.core.util;
 
 /**
- * BHIMConstants, made for BHIM, is copyright Blue Husky Programming ©2016 BH-PS-1 <hr/>
+ * BHIMConstants, made for BHIM, is copyright Blue Husky Programming ©2016 BH-PS-1 <hr>
  *
  * Constants that always apply to BHIM
  *
